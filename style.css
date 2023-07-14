@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* index css */
+.container {
+  height: 100vh;
+  width: 100%;
+  background: url(https://assets.nflxext.com/ffe/siteui/vlv3/bff5732c-7d13-45d1-9fab-476db25a1827/46bc87cd-4c4c-4485-8b93-d5f21c581d56/IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+/* header section */
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(0 0 0 / 40%);
+}
+.search-box {
+  position: relative;
+  display: flex;
+}
+.search-button {
+  height: 44px;
+  width: 540px;
+  background: rgb(0 0 0 / 70%);
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1 px solid gray;
+}
+button {
+  margin: 0px;
+  width: 9%;
+  padding: 6px 10px;
+  outline: none;
+  background: rgb(0 0 0 / 70%);
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1 px solid gray;
+  cursor: pointer;
+}
+#title {
+  color: aliceblue;
+  font-size: 3rem;
+  background: rgb(0 0 0 / 20%);
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: rgb(244, 239, 239);
+  font-size: 1rem;
+}
+/* main section */
+.main {
+  height: 70vh;
+  background: rgb(0 0 0 / 40%);
+}
+/* movie.html details page */
+.movie-container {
+  height: 90%;
+  width: 75%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+.movie-container::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-poster {
+  width: 13rem;
+  height: 24rem;
+  background-color: rgb(215, 212, 212);
+  padding: 20px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 1px 2px #a1a1a1;
+}
+.poster-img {
+  width: 100%;
+}
+.year {
+  margin-top: 0.2rem;
+}
+.poster-img img {
+  width: 100%;
+  height: 18rem;
+  border-radius: 5px;
+}
+.poster {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-left: 10px;
+  align-items: flex-start;
+}
+.poster a {
+  text-decoration: none;
+  color: #000;
+}
+/* Movie Container */
+.header-detail {
+  height: 30vh;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(0 0 0 / 50%);
+  justify-content: space-evenly;
+}
+.watch-list {
+  display: flex;
+  align-items: center;
+}
+.watch-list a {
+  text-decoration: none;
+  color: aliceblue;
+  font: 1.5rem sans-serif;
+  margin-left: 30px;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.header-detail a {
+  text-decoration: none;
+  color: azure;
+  padding-top: 1.8rem;
+  font-weight: 400;
+}
+.detail-container {
+  height: 70vh;
+  background: rgb(0 0 0 / 50%);
+}
+.movie-detail-container {
+  margin: 0px auto;
+  height: 25rem;
+  width: 50rem;
+  background-color: aliceblue;
+  display: flex;
+}
+.movie-detail-img {
+  margin: 20px;
+}
+.movie-detail-img img {
+  width: 14rem;
+  height: 22rem;
+  border-radius: 5px;
+}
+.movie-details {
+  margin: 10px;
+}
+#movie-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.movie-details p span {
+  font-weight: 700;
+}
+.space {
+  height: 10px;
+}
+#secound {
+  font-style: italic;
+  font-size: 15px;
+  color: #555;
+}
+
+#secound span {
+  font-weight: 100;
+  font-style: italic;
+}
