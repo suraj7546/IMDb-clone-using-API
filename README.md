@@ -1,17 +1,30 @@
 # IMDb-clone-using-API
-This project is an IMDb clone that provides an API for retrieving information about movies, TV shows, actors, and more. It aims to replicate some of the functionality of the popular IMDb website.
-**Authentication**
+
+# Overview
+This repository contains the source code and resources for an IMDb clone project. The project aims to replicate some of the core features of IMDb, allowing users to browse movies, TV shows, actors, and other related information.
+
+# Features
+- Browse and search for movies, TV shows, and actors.
+- View detailed information about movies, including cast, crew, ratings, and reviews.
+- User authentication and authorization.
+- Responsive design for compatibility with various devices.
+
+# Technologies Used
+HTML, CSS, JavaScript, API
+
+# **Authentication**
 Some of the API endpoints require authentication. To access these endpoints, you need to include a valid JWT token in the Authorization header of the HTTP request. The token can be obtained by registering and logging into the API.
-**Acknowledgments**
+# **Acknowledgments**
 The IMDb Clone API is based on the concepts and design of the IMDb website.
 Thanks to the contributors and open-source community for their valuable contributions.
-**Contact**
+# **Contact**
 If you have any questions or suggestions, feel free to contact the project maintainer at your surajkumar72501@gmail.com .
 
 That's it! You now have an IMDb Clone API up and running. Feel free to modify and enhance it according to your needs. Happy coding!
 
 
-#Screenshots:
+
+# Screenshots:
 
 ![Screenshot (76)](https://github.com/suraj7546/IMDb-clone-using-API/assets/92979091/945e4acf-c554-4a2e-a4b9-ccadb7634968)
 
